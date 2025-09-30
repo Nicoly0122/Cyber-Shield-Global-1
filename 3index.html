@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>CyberShield Global — Internacional</title>
+<style>
+:root {
+  --bg: #0b0f14;
+  --panel: #0f1724;
+  --accent: #1e90ff;
+  --muted: #94a3b8;
+  --card: #0b1220;
+  --radius: 12px;
+  --maxw: 1200px;
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;background:var(--bg);color:#e6eef8;line-height:1.6}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:28px}
+header{display:flex;justify-content:space-between;align-items:center;padding:18px 0}
+.logo{font-weight:bold;font-size:28px;color:var(--accent)}
+nav a{color:var(--muted);margin-left:15px;text-decoration:none}
+.hero{margin-bottom:50px}
+h1,h2,h3{margin:0}
+h1{font-size:36px;color:var(--accent);margin-bottom:10px}
+p{color:var(--muted);margin-bottom:15px}
+section{margin-bottom:50px}
+.card{background:var(--panel);padding:25px;border-radius:var(--radius);margin-bottom:20px}
+.services, .cases, .pricing, .team, .blog{display:grid;gap:20px}
+.services{grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+.pricing, .cases, .team, .blog{grid-template-columns:repeat(auto-fit,minmax(250px,1fr))}
+.price{font-size:22px;color:var(--accent);font-weight:bold}
+footer{padding:30px;border-top:1px solid rgba(255,255,255,0.1);text-align:center;color:var(--muted)}
+form{display:grid;gap:15px;max-width:500px}
+input, textarea{padding:12px;border-radius:8px;border:1px solid rgba(255,255,255,0.1);background:var(--panel);color:#e6eef8}
+button{padding:14px;background:var(--accent);border:none;color:#021124;font-weight:600;border-radius:10px;cursor:pointer}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+<div class="logo">CyberShield Global</div>
+<nav>
+<a href="#services">Servicios</a>
+<a href="#cases">Casos</a>
+<a href="#pricing">Planes</a>
+<a href="#team">Equipo</a>
+<a href="#blog">Blog</a>
+<a href="#contact">Contacto</a>
+</nav>
+</header>
+
+<section class="hero">
+<h1>Protegiendo empresas a nivel internacional</h1>
+<p>CyberShield Global ofrece soluciones completas de ciberseguridad y protección de datos para empresas que operan en todo el mundo. Nuestra experiencia en monitoreo, prevención y respuesta ante incidentes garantiza la continuidad y seguridad de tus operaciones, sin importar la ubicación de tu empresa.</p>
+<p>Nos especializamos en cumplimiento de normativas internacionales, protección de endpoints, seguridad en la nube y auditorías personalizadas para cada industria. Con un equipo experto en gestión de riesgos y ciberdefensa, estamos listos para proteger tu negocio de amenazas digitales modernas y complejas.</p>
+</section>
+
+<section id="services">
+<h2>Servicios</h2>
+<div class="services">
+<div class="card"><h3>Detección y Respuesta Gestionada (MDR)</h3><p>Monitoreo continuo de sistemas, detección temprana de amenazas y respuesta inmediata para minimizar riesgos. Implementamos herramientas avanzadas para proteger tus datos y aplicaciones críticas.</p></div>
+<div class="card"><h3>Protección en la Nube</h3><p>Seguridad integral en AWS, Azure, GCP y entornos híbridos. Implementamos controles de acceso, cifrado de datos y políticas de seguridad adaptadas a la nube para proteger tu información en todo momento.</p></div>
+<div class="card"><h3>Consultoría y Cumplimiento</h3><p>Asesoría especializada en GDPR, CCPA, PIPL y otras regulaciones internacionales. Realizamos auditorías, gestión de riesgos y capacitación del personal para asegurar que tu empresa cumpla con todas las normativas vigentes.</p></div>
+<div class="card"><h3>Evaluaciones de Vulnerabilidad</h3><p>Identificamos brechas y vulnerabilidades en tus sistemas antes de que sean explotadas, ofreciendo recomendaciones prácticas y soluciones efectivas para fortalecer tu seguridad.</p></div>
+<div class="card"><h3>Planes de Continuidad y Recuperación</h3><p>Diseñamos estrategias de resiliencia y recuperación ante incidentes de ciberseguridad, asegurando que tu negocio pueda operar incluso después de un ataque crítico.</p></div>
+</div>
+</section>
+
+<section id="cases">
+<h2>Casos de Éxito</h2>
+<div class="cases">
+<div class="card"><h3>Banco Global</h3><p>Redujimos el tiempo de respuesta ante incidentes de 12 horas a menos de 30 minutos, asegurando la continuidad de operaciones y la protección de datos financieros críticos.</p></div>
+<div class="card"><h3>Startup Cloud</h3><p>Implementamos Single Sign-On (SSO), Data Loss Prevention (DLP) y auditorías continuas, garantizando el cumplimiento de regulaciones internacionales y la seguridad de sus clientes.</p></div>
+<div class="card"><h3>Red Hospitalaria</h3><p>Protegimos historiales clínicos y aseguramos la continuidad operativa durante un ataque de ransomware, evitando pérdidas económicas y garantizando la atención médica a los pacientes.</p></div>
+</div>
+</section>
+
+<section id="pricing">
+<h2>Planes y Precios</h2>
+<div class="pricing">
+<div class="card"><h3>Básico</h3><p class="price">USD 299/mes</p><p>Monitoreo esencial, protección de hasta 50 endpoints y soporte estándar.</p></div>
+<div class="card"><h3>Profesional</h3><p class="price">USD 899/mes</p><p>Detección y respuesta avanzada, protección para 100+ endpoints, auditoría básica y cumplimiento internacional.</p></div>
+<div class="card"><h3>Enterprise</h3><p class="price">A cotizar</p><p>Soluciones personalizadas, equipo dedicado, soporte 24/7 y cumplimiento avanzado de normativas internacionales.</p></div>
+</div>
+</section>
+
+<section id="team">
+<h2>Equipo</h2>
+<div class="team">
+<div class="card"><h3>Nicoly Cárdenas</h3><p>CEO & Fundadora — Especialista en gestión de riesgos y estrategias de ciberdefensa.</p></div>
+<div class="card"><h3>Michael Chen</h3><p>CTO — Experto en cloud security y arquitectura de sistemas seguros para empresas globales.</p></div>
+<div class="card"><h3>Sofia Ivanova</h3><p>Head de Respuesta a Incidentes — Líder de SOC 24/7 con experiencia en mitigación de ataques complejos y protección de datos sensibles.</p></div>
+</div>
+</section>
+
+<section id="blog">
+<h2>Blog</h2>
+<div class="blog">
+<div class="card"><h3>Cómo prevenir ataques de phishing</h3><p>Guía práctica para identificar correos y enlaces fraudulentos, protegiendo la información de tu empresa y clientes en un entorno internacional.</p></div>
+<div class="card"><h3>Cumplimiento GDPR y otras regulaciones</h3><p>Explicamos las mejores prácticas para garantizar que tu empresa cumpla con las normas de protección de datos en distintos países.</p></div>
+<div class="card"><h3>Protección en entornos multi-cloud</h3><p>Recomendaciones y herramientas para proteger tus sistemas y datos en plataformas en la nube globales, evitando filtraciones y accesos no autorizados.</p></div>
+</div>
+</section>
+
+<section id="contact">
+<h2>Contacto</h2>
+<form>
+<input type="text" placeholder="Nombre" required />
+<input type="email" placeholder="Correo electrónico" required />
+<input type="text" placeholder="Empresa" />
+<textarea placeholder="Mensaje" rows="5" required></textarea>
+<button type="submit">Enviar mensaje</button>
+</form>
+</section>
+
+<footer>
+<p>© 2025 CyberShield Global — Internacional</p>
+</footer>
+</div>
+</body>
+</html>
